@@ -7,7 +7,7 @@ import retrofit2.http.*
 
 interface ApiService {
     @GET("/appApi/test")
-    suspend fun data(): BaseData<List<Room>>
+    suspend fun data(@Query("size") size:Int,@Query("page") page:Int,): BaseData<List<Room>>
 
 
 }

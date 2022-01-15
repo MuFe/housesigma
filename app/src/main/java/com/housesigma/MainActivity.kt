@@ -3,6 +3,7 @@ package com.housesigma
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
@@ -33,6 +34,9 @@ class MainActivity : AppCompatActivity() {
                 getString(R.string.title_list) -> {
                     mVm.index.postValue(1)
                 }
+                getString(R.string.title_setting) -> {
+                    mVm.index.postValue(2)
+                }
 
             }
         }
@@ -43,6 +47,8 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         })
+//        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+//        recreate()
     }
 
     fun goOther(id: Int, bundle: Bundle = bundleOf()) {

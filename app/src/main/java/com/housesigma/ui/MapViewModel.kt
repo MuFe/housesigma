@@ -16,7 +16,7 @@ class MapViewModel(val networkUtil: NetworkUtil):BaseModel(networkUtil) {
     override fun load() {
         super.load()
         loadData() { it, result ->
-            networkUtil.getData {
+            networkUtil.getData(0,0) {
                 mListData.postValue(it)
             }
         }

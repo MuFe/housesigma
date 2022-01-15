@@ -6,13 +6,20 @@
 
     <string name="title_map">Map</string>
     <string name="title_list">List</string>
+    <string name="title_setting">Setting</string>
 
 
 
     <string name="bottom_map">地图</string>
     <string name="bottom_list">列表</string>
-    <string name="bottom_data">数据</string>
-    <string name="bottom_user">个人</string>
+    <string name="bottom_setting">设置</string>
+
+
+    <string name="list_photo">有图</string>
+    <string name="list_photo_no">无图</string>
+    <string name="setting_mode1">Auto模式</string>
+    <string name="setting_mode2">白天模式</string>
+    <string name="setting_mode3">黑夜模式</string>
 
 
 </resources>

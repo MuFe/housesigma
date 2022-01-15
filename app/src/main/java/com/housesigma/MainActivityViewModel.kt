@@ -28,8 +28,8 @@ class MainActivityViewModel(
     }
 
 
-    fun goData() {
-
+    fun goSetting() {
+        mEvent.postValue(ViewModelEvent.GoEvent(R.id.navigation_setting))
     }
 
     sealed class ViewModelEvent {

@@ -67,14 +67,14 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:onClick="@{() -> vm.goData()}"
+                android:onClick="@{() -> vm.goSetting()}"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:text="@string/bottom_data"
+                    android:text="@string/bottom_setting"
                     android:textColor="@{vm.index==2?@color/main_check:@color/main}"
                     android:textSize="16dp" />
             </LinearLayout>
