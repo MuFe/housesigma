@@ -122,10 +122,7 @@ class MapFragment() : BaseFragment() {
         super.onPause()
     }
 
-    override fun onDestroy() {
-        mBinding.map.onDestroy()
-        super.onDestroy()
-    }
+
 
 
 }

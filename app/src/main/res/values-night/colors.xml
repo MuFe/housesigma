@@ -14,7 +14,7 @@
 
     <color name="tfe_semi_transparent">#66000000</color>
 
-    <color name="main_check">#333333</color>
+    <color name="main_check">#ffffff</color>
     <color name="login_bg">#00BFD6</color>
     <color name="login_bg_1">#858494</color>
     <color name="main">#c9c9c9</color>

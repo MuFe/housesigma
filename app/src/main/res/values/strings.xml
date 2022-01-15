@@ -7,6 +7,7 @@
     <string name="title_map">Map</string>
     <string name="title_list">List</string>
     <string name="title_setting">Setting</string>
+    <string name="title_web">Web</string>
 
 
 
@@ -20,6 +21,7 @@
     <string name="setting_mode1">Auto模式</string>
     <string name="setting_mode2">白天模式</string>
     <string name="setting_mode3">黑夜模式</string>
+    <string name="setting_web">网页</string>
 
 
 </resources>

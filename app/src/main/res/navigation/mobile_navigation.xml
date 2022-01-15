@@ -24,6 +24,12 @@
         android:label="@string/title_setting"
         tools:layout="@layout/fragment_setting" />
 
+    <fragment
+        android:id="@+id/navigation_web"
+        android:name="com.housesigma.ui.WebFragment"
+        android:label="@string/title_web"
+        tools:layout="@layout/fragment_web" />
+
 
 </navigation>
 

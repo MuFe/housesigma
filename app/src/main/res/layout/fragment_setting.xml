@@ -27,6 +27,7 @@
             android:gravity="center_vertical"
             android:padding="12dp"
             android:text="@string/setting_mode1"
+            android:onClick="@{()->vm.Auto()}"
             android:textColor="#333333"
             android:textSize="16dp" />
 
@@ -41,6 +42,7 @@
             android:gravity="center_vertical"
             android:padding="12dp"
             android:text="@string/setting_mode2"
+            android:onClick="@{()->vm.Day()}"
             android:textColor="#333333"
             android:textSize="16dp" />
 
@@ -54,7 +56,23 @@
             android:drawablePadding="19dp"
             android:gravity="center_vertical"
             android:padding="12dp"
+            android:onClick="@{()->vm.NIght()}"
             android:text="@string/setting_mode3"
+            android:textColor="#333333"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/my_item_bg"
+            android:drawablePadding="19dp"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:onClick="@{()->vm.Web()}"
+            android:text="@string/setting_web"
             android:textColor="#333333"
             android:textSize="16dp" />
 
