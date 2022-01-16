@@ -24,9 +24,9 @@ class MyApplication: Application() {
         }
 
 //
-//        Thread.setDefaultUncaughtExceptionHandler(Thread.UncaughtExceptionHandler { thread, throwable ->
-//            throw  throwable
-//        })
+        Thread.setDefaultUncaughtExceptionHandler(Thread.UncaughtExceptionHandler { thread, throwable ->
+            throw  throwable
+        })
         ImageLoader.getDefault().diskCacheOptions()
             .setDiskCacheDirPath(getExternalFilesDir("Cache")?.path ?: filesDir.path)
             .setDiskCacheFolderName("Image")
